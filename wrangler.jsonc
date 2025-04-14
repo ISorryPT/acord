@@ -22,4 +22,19 @@
       "database_id": "a56f5417-774b-4f8f-bb6b-0c20bdfa5611",
     },
   ],
+  "durable_objects": {
+    "bindings": [
+        {
+          "name": "CHANNELS",
+          "class_name": "Channel",
+        }
+
+    ]
+  },
+  "migrations": [
+    {
+      "tag": "v0000001",
+      "new_sqlite_classes": ["Channel"]
+    }
+  ]
 }
